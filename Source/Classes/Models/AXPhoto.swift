@@ -7,7 +7,7 @@
 //
 
 /// A simple wrapper class for `PhotoProtocol`.
-@objc(AXPhoto) open class Photo: NSObject, PhotoProtocol {
+@objc(AXPhoto) open class AXPhoto: NSObject, PhotoProtocol {
     
     @objc public init(attributedTitle: NSAttributedString? = nil,
                       attributedDescription: NSAttributedString? = nil,
