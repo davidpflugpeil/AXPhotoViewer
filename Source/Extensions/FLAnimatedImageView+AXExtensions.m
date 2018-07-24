@@ -9,7 +9,7 @@
 @import FLAnimatedImage;
 
 #import "FLAnimatedImageView+AXExtensions.h"
-#import <AXPhotoViewer/AXPhotoViewer-Swift.h>
+#import <AXPhotoViewer-Swift.h>
 
 @interface FLAnimatedImageView ()
 
