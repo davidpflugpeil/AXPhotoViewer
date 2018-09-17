@@ -9,13 +9,13 @@ Pod::Spec.new do |s|
 
   s.requires_arc    = true
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.tvos.deployment_target = '9.0'
 
   s.default_subspec = 'Core'
 
   s.subspec 'Core' do |cs|
-    cs.ios.dependency  'AXStateButton', '>= 1.1.3'
+      cs.ios.dependency  'AXStateButton'#, '>= 1.1.3'
     cs.ios.dependency  'FLAnimatedImage', '>= 1.0.0'
     cs.tvos.dependency 'FLAnimatedImage-tvOS', '>= 1.0.16'
     cs.resources     = 'Assets/*.{xcassets}'

@@ -1,8 +1,8 @@
 platform :ios, '10.0'
 
-target 'AXPhotoViewerExample' do
+use_frameworks!
 
-  use_frameworks!
+target 'AXPhotoViewerExample' do
 
   pod 'Reveal-SDK'
 
